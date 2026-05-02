@@ -1,0 +1,20 @@
+{
+  "name": "solarized-dark-theme",
+  "displayName": "Solarized Dark (Vlad)",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Dark (Vlad)",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
