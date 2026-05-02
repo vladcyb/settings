@@ -54,5 +54,6 @@
   "gitlens.currentLine.enabled": false,
   "git.showPushSuccessNotification": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "git.confirmSync": true
+  "git.confirmSync": true,
+  "git.branchProtection": ["main", "develop", "master"]
 }
