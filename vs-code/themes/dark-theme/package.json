@@ -1,0 +1,25 @@
+{
+  "name": "dark-theme",
+  "displayName": "Dark Theme (Vlad)",
+  "version": "1.0.0",
+  "publisher": "vladcyb",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Theme (Vlad)",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladcyb/settings/tree/master/vs-code/themes/dark-theme"
+  }
+}
