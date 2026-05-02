@@ -2,22 +2,25 @@
 
 A local extension with a single dark color theme.
 
-## Install from the project folder
+## Install
 
-1. Open this folder in **VS Code** or **Cursor**.
-2. Choose **Run** → **Start Debugging** (`F5`), or use the Command Palette → **Developer: Reload Window** after packaging.
-
-Or install via the CLI (if `code` is on your PATH):
+Requires [Node.js](https://nodejs.org/) (includes `npx`). From this folder (where `package.json` lives):
 
 ```powershell
-code --install-extension .
+npx @vscode/vsce package
 ```
 
-Open the Command Palette (`Ctrl+Shift+P`) → **Preferences: Color Theme** → **Solarized VS Code Theme**.
+This creates `solarized-dark-theme-1.0.0.vsix` in the same directory (name and version follow `package.json`). If `vsce` asks for a `publisher` field, add it to `package.json` (e.g. `"publisher": "local"`).
+
+Install the file: **Extensions** → **⋯** → **Install from VSIX…**, or:
+
+```powershell
+code --install-extension .\solarized-dark-theme-1.0.0.vsix
+```
 
 ## Development
 
-- Theme file: [`themes/theme.json`](themes/theme.json)
+- Theme file: [`theme.json`](theme.json)
 - Extension manifest: [`package.json`](package.json)
 
 For the Extension Development Host, use the **Extension Host** configuration in [`.vscode/launch.json`](.vscode/launch.json) (or create an equivalent manually with `--extensionDevelopmentPath=${workspaceFolder}`).
