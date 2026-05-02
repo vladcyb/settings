@@ -2,6 +2,7 @@
   "name": "solarized-dark-theme",
   "displayName": "Solarized Dark (Vlad)",
   "version": "1.0.0",
+  "publisher": "vladcyb",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -16,5 +17,9 @@
         "path": "./theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladcyb/settings/tree/master/vs-code/themes/vs-code-solarized-theme"
   }
 }
