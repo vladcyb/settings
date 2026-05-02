@@ -1,0 +1,50 @@
+{
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.6,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Solarized Theme",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onFocusChange",
+  "workbench.tree.enableStickyScroll": false,
+  "editor.showUnused": false,
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "files.exclude": {
+    "**/__pycache__": true,
+    ".idea": true,
+    ".vscode": true
+  },
+  "search.exclude": {
+    "**/__pycache__": true
+  },
+  "explorer.confirmPasteNative": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.maxComputationTime": 0,
+  "diffEditor.wordWrap": "off",
+  "diffEditor.hideUnchangedRegions.enabled": false,
+  "diffEditor.hideUnchangedRegions.contextLineCount": 8,
+  "editor.renderWhitespace": "selection",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
