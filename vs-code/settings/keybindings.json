@@ -124,5 +124,9 @@
     "key": "ctrl+shift+d",
     "command": "git.openChange",
     "when": "editorTextFocus && !isInDiffEditor && gitOpenRepositoryCount != 0"
+  },
+  {
+    "key": "ctrl+k ctrl+k",
+    "command": "git.commit"
   }
 ]
