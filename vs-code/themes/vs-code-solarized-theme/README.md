@@ -12,11 +12,7 @@ npx @vscode/vsce package
 
 This creates `solarized-dark-theme-1.0.0.vsix` in the same directory (name and version follow `package.json`). If `vsce` asks for a `publisher` field, add it to `package.json` (e.g. `"publisher": "local"`).
 
-Install the file: **Extensions** → **⋯** → **Install from VSIX…**, or:
-
-```powershell
-code --install-extension .\solarized-dark-theme-1.0.0.vsix
-```
+Install the file: **Extensions** → **⋯** → **Install from VSIX…**.
 
 ## Development
 
