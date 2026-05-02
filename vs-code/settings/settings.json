@@ -46,5 +46,11 @@
   "editor.renderWhitespace": "selection",
   "editor.minimap.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "markdown.preview.doubleClickToSwitchToEditor": false,
+  "markdown.preview.markEditorSelection": false,
+  "git.blame.editorDecoration.enabled": false,
+  "git.blame.statusBarItem.enabled": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false
 }
