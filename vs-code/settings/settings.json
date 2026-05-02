@@ -2,7 +2,6 @@
   "editor.fontSize": 16,
   "editor.lineHeight": 1.6,
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Solarized Theme",
   "js/ts.updateImportsOnFileMove.enabled": "always",
   "extensions.ignoreRecommendations": true,
   "files.autoSave": "onFocusChange",
@@ -52,5 +51,7 @@
   "git.blame.editorDecoration.enabled": false,
   "git.blame.statusBarItem.enabled": true,
   "gitlens.hovers.currentLine.over": "line",
-  "gitlens.currentLine.enabled": false
+  "gitlens.currentLine.enabled": false,
+  "git.showPushSuccessNotification": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
