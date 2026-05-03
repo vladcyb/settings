@@ -1,7 +1,7 @@
 {
   "name": "solarized-dark-theme",
   "displayName": "Solarized Dark (Vlad)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "vladcyb",
   "engines": {
     "vscode": "^1.74.0"
