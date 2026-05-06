@@ -11,29 +11,29 @@
   "files.exclude": {
     "**/__pycache__": true,
     ".idea": true,
-    ".vscode": true
+    ".vscode": true,
   },
   "search.exclude": {
-    "**/__pycache__": true
+    "**/__pycache__": true,
   },
   "explorer.confirmPasteNative": false,
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
-      "icon": "terminal-powershell"
+      "icon": "terminal-powershell",
     },
     "Command Prompt": {
       "path": [
         "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
+        "${env:windir}\\System32\\cmd.exe",
       ],
       "args": [],
-      "icon": "terminal-cmd"
+      "icon": "terminal-cmd",
     },
     "Git Bash": {
       "path": "C:\\Program Files\\Git\\bin\\bash.exe",
-      "args": ["--login", "-i"]
-    }
+      "args": ["--login", "-i"],
+    },
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -41,7 +41,7 @@
   "diffEditor.maxComputationTime": 0,
   "diffEditor.wordWrap": "off",
   "diffEditor.hideUnchangedRegions.enabled": false,
-  "diffEditor.hideUnchangedRegions.contextLineCount": 8,
+  "diffEditor.hideUnchangedRegions.contextLineCount": 8123213,
   "editor.renderWhitespace": "selection",
   "editor.minimap.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -52,10 +52,21 @@
   "git.blame.editorDecoration.enabled": false,
   "git.blame.statusBarItem.enabled": true,
   "gitlens.hovers.currentLine.over": "line",
-  "gitlens.currentLine.enabled": false,
   "git.showPushSuccessNotification": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "git.confirmSync": true,
-  "workbench.colorTheme": "Solarized Dark (Vlad)",
-  "cursor.composer.textSizeScale": 1.15
+  "workbench.colorTheme": "Cursor Light",
+  "cursor.composer.textSizeScale": 1.15,
+  "editor.bracketPairColorization.enabled": true,
+  "gitlens.currentLine.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.graph.minimap.enabled": false,
+  "workbench.tree.indent": 18,
+  "workbench.tree.renderIndentGuides": "none",
+  "markdown.preview.fontSize": 16,
+  "window.autoDetectColorScheme": false,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "editor.linkedEditing": true,
 }
